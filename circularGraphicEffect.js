@@ -71,28 +71,3 @@ function Pulse() {
         console.log("Pulse selected");
     }
 }
-
-
-//        // Draw triangles based on treble energy
-//        if (treble > 150) {
-//            for (let i = 0; i < 5; i++) {
-//                let x = random(width);
-//                let y = random(height);
-//                fill(random(255), random(255), random(255));
-//                noStroke();
-//                triangle(x, y, x + 20, y + 30, x - 20, y + 30);
-//            }
-//        }
-//
-//        // Draw squares based on bass energy
-//        if (bass > 200) {
-//            for (let i = 0; i < 5; i++) {
-//                let x = random(width);
-//                let y = random(height);
-//                fill(random(255), random(255), random(255));
-//                noStroke();
-//                rect(x, y, 20, 20);
-//            }
-//        }
-//    }
-//
